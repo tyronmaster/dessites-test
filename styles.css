@@ -93,6 +93,7 @@ input::-moz-placeholder,
 textarea::-moz-placeholder,
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
+  font-family: "Montserrat", sans-serif;
   opacity: 1;
 }
 
@@ -216,6 +217,7 @@ textarea::-webkit-input-placeholder {
 }
 .formshow {
   position: relative;
+  overflow: hidden;
 }
 .formshow::before {
   content: "";
@@ -301,8 +303,9 @@ textarea::-webkit-input-placeholder {
   margin: 0 auto;
   justify-content: center;
 }
-.visible {
+.formshow > .mainframe__form {
   display: flex;
+  z-index: 20;
 }
 .form__input,
 .form__textarea {
