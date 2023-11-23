@@ -342,11 +342,12 @@ textarea::-webkit-input-placeholder {
   padding: 5px;
   border-radius: 50%;
   background: transparent;
-  border: 1px solid var(--color-light);
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  transform: rotate(180deg);
+  transition: 0.5s;
 }
 .close__form span {
   display: block;
@@ -361,4 +362,8 @@ textarea::-webkit-input-placeholder {
 }
 .close__form span:last-child {
   transform: rotate(-45deg);
+}
+.close__form:hover {
+  transform: rotate(-180deg);
+  transition: 0.5s;
 }
