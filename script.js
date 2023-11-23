@@ -1,13 +1,17 @@
 const consultButton = document.querySelector(".light__button");
-const form = document.querySelector(".mainframe__form");
 const closeBtn = document.querySelector(".close__form");
+const main = document.querySelector(".main");
 
 consultButton.addEventListener("click", (e) => {
-  console.log(e.target);
-  console.log(form);
-  form.classList.add("visible");
+  main.classList.add("formshow");
 });
 
 closeBtn.addEventListener("click", () => {
-  form.classList.remove("visible");
+  main.classList.remove("formshow");
+});
+
+main.addEventListener("click", (e) => {
+  if (e.target.classList.contains("formshow")) {
+    main.classList.remove("formshow");
+  }
 });
