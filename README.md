@@ -1,6 +1,9 @@
 # dessites-test
 Test task for dessites.by
 
+# Deploy
+[deploy](https://tyronmaster.github.io/dessites-test)
+
 «Целью данного небольшого технического задания является 
 понимание навыков в стилевом оформлении, 
 а также понимание в юзабилити и верстке сайтов.
