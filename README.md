@@ -4,25 +4,23 @@ Test task for dessites.by
 # Deploy
 [deploy](https://tyronmaster.github.io/dessites-test)
 
-«Целью данного небольшого технического задания является 
-понимание навыков в стилевом оформлении, 
-а также понимание в юзабилити и верстке сайтов.
+# Task description
 
-Тестовое задание неоплачиваемое. Мы гарантируем с нашей стороны не использовать ваше тестовое задание для своих целей.
-Само задание:
-Сделать дизайн и верстку двух блоков: шапка и главный баннер. Тематика - "Панели из сотового картона".
-Шапка состоит из:
-- логотип(любой согласно дизайну). Адрес сайта - example.com
-- меню из 5 пунктов(любых на Ваш вкус)
+Design & build HTML page of 2 blocks: header and main frame. The topic is "Honeycomb
+Panels"
+
+[+] HEADER requirements:
+- logo
+- header menu of 5 links
 - email
-- контактный номер телефона с переходом в viber, whatsapp
-Главный баннер состоит из:
-- Заголовок
-- краткое описание
-- цена
-- 2 кнопки, призывающих сделать целевое действие
-- форма обратной связи
-- изображение товара.
-Результатом должна быть неадаптивная верстка, размещенная на github или на собственном хостинге.
+- phone with redirect to viber, whatsapp
 
-Все результаты отправляются на email info@dessites.by с пометкой "тестовое задание". Внутри письма обязательно указать фамилию и имя как в анкете соискателя на rabota.by.» 
+[+] MAINFRAME requirements:
+- title
+- short description
+- price
+- 2 buttons encouraging you to take the target action
+- feedback form
+- item picture
+
+The result should be non-adaptive layout, posted on Github or private hosting
